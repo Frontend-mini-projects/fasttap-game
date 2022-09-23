@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-size: x-large;
+
+    touch-action: manipulation;
+}
+
+header {
+    background-color: #a7a5a5;
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+.leftcontainer {
+    /* border: 2px solid green; */
+    margin-left: 2%;
+}
+
+.middlecontainer {
+    /* border: 2px solid rgb(90, 90, 48); */
+    margin-left: 45%;
+    padding-top: 0.7rem;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.rightcontainer {
+    /* border: 2px solid blue; */
+    margin-left: 87%;
+    padding-top: 0.6rem;
+    position: absolute;
+
+}
+
+#maxscore {
+    color: blue;
+}
+
+#highscoreusername {
+    color: blue;
+}
+
+#lefttime {
+    color: red;
+}
+
+.container {
+    /* border: 2px solid blue; */
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 7%;
+    align-items: center;
+}
+
+#timerbtn,
+#playagain {
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 12.5px;
+    background: #e0e0e0;
+    box-shadow: 16px 16px 18px #aaaaaa,
+        -16px -16px 18px #ffffff;
+
+
+
+    display: block;
+    margin: auto;
+    width: 5rem;
+    /* border: 2px solid rgb(172, 131, 131); */
+}
+
+#timerbtn:active,
+#playagain:active {
+    box-shadow: 16px 16px 18px #aaaaaa inset,
+        -16px -16px 18px #ffffff inset;
+}
+
+#counter {
+    margin: 2rem auto;
+    top: 11rem;
+    left: 23rem;
+
+
+    background-color: chocolate;
+    display: block;
+
+    width: 11rem;
+    height: 11rem;
+    border: rgb(184, 89, 22);
+    border-radius: 4px;
+
+
+
+    /* new designs */
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 12.5px;
+    background: #e0e0e0;
+    box-shadow: 16px 16px 18px #aaaaaa,
+        -16px -16px 18px #ffffff;
+}
+
+#counter:active {
+    box-shadow: 16px 16px 18px #aaaaaa inset,
+        -16px -16px 18px #ffffff inset;
+}
+
+#playagain {
+    display: none;
+}
